@@ -1,0 +1,1278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+
+/*---Header Area---*/
+
+.header {
+    padding: 4px;
+    box-shadow: 0px 3px 23px #f1f1f1;
+    font-family: 'Poppins';
+    font-size: 1rem;
+}
+
+span {
+    cursor: pointer;
+}
+
+span:hover {
+    color: #5CC67E;;
+}
+
+.header_area {
+    display: flex;
+}
+
+.okro_logo {
+    margin: 20px 0 20px 40px;
+}
+
+.logo_pack {
+    flex: 0.9;
+}
+
+.menu_pack {
+    flex: 2;
+    padding: 25px 0 25PX 25px;
+}
+
+span {
+    margin-left: 28px;
+}
+
+.LogIn_btn {
+    padding: 20px;
+    margin-left: 32px;
+    border-radius: 16px;
+    border: 0 solid;
+    font-weight: bolder;
+    color: #158269;
+    background-color: #F5FCF2;
+    
+}
+
+.SignUp_btn {
+    padding: 20px;
+    margin-left: 16px;
+    border-radius: 10px;
+    border: 0 solid;
+    background-color:#3AB795;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+    font-size: 1rem;
+}
+
+/*-------------------*/
+
+
+
+/*---Hero Area---*/
+
+.Big_text {
+    font-family: 'IBM Plex Sans';
+    font-size: 4.3rem;
+    text-align: center;
+    color: #158269;
+    margin: 60px 250px 0 250px; 
+}
+
+.toggle_switch {
+    font-family: 'Poppins';
+    width: 200px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 24px;
+}
+
+/*-------------------*/
+
+
+
+/*---Pricing Area---*/
+
+.icon {
+    background-color: #97e5b13a;
+    border-radius: 20px;
+    margin: 4px;
+    width: 70px;
+}
+
+.title {
+    color: #3AB795;
+}
+
+.cta_btn {
+    padding: 20px;
+    margin-left: 36px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 0 solid;
+    background-color: #3AB795;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color: white;
+    width: 280px;
+}
+
+.cta_btn_paid {
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 0 solid;
+    background-color: #3AB795;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color: white;
+    width: 280px;
+}
+
+.cta_btn_free {
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 0 solid;
+    background-color: #3AB795;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color: white;
+    width: 280px;
+}
+
+.pricing_area {
+    background-color: #f4ffef2f;
+    width: auto;
+    height: 800px;
+    display: flex;
+    margin-top: 36px;
+}
+
+.partners_area {
+    margin-top: 80px;
+    background-color: #f4ffef2f;
+    width: auto;
+    display: flex;
+}
+
+.pricing_area_inner {
+    background-color: #46bd0f00;
+    width: 90%;
+    height: 800px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.free {
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: rgba(255, 255, 0, 0);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.paid {
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    flex: 1.2;
+    margin-left: 24px;
+    box-shadow: -25px -5px 120px #dadada4b;
+    border-radius: 42px;
+}
+
+.custom {
+    margin-top: 80px;
+    flex: 1;
+    background-color: rgba(255, 0, 55, 0);
+    margin-left: 24px;
+}
+
+.free_header {
+    width: 180px;
+    background-color: #97e5b13a;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    display: flex;
+    font-weight: bolder;
+    color: #158269;
+    font-size: 1.5rem;
+    margin-top: 64px;
+}
+
+.paid_header {
+    width: 220px;
+    background-color: #97e5b13a;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    display: flex;
+    font-weight: bolder;
+    color: #3AB795;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.pricing_icon {
+    padding-left: 8px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.items002 {
+    height: 40px;
+    width: 40px;
+    border-radius: 16px;
+    margin-top: 72px;
+    margin-left: 8px;
+    background-color: #97e5b13a;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.items000 {
+    height: 40px;
+    width: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+    margin-left: 8px;
+    background-color: #97e5b13a;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.items00 {
+    height: 40px;
+    width: 40px;
+    border-radius: 16px;
+    margin-top: 72px;
+    margin-left: 50px;
+    background-color: #97e5b13a;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.items01 {
+    height: 40px;
+    width: 40px;
+    border-radius: 16px;
+    margin-top: 24px;
+    margin-left: 50px;
+    background-color: #97e5b13a;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.item_txt {
+    margin-left: 30px;
+}
+
+.okra_icon {
+    padding: 8px;
+}
+
+/*-------------------*/
+
+
+
+
+/*FAQ Area*/
+
+.faq_area {
+    margin: auto;
+    margin-top: 80px;
+    width: 80%;
+}
+
+.q1 {
+    padding: 36px;
+    border-radius: 24px;
+    box-shadow: 0px 3px 23px #f1f1f1;
+}
+
+.faq_text {
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+}
+
+.faq_txt {
+    display: flex;
+}
+
+.faq_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.regular_h1 {
+    font-family: 'Poppins';
+    color: #158269;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/*-------------------*/
+
+
+/*Partner Area*/
+
+.partners_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner_h1 {
+    font-family: 'Poppins';
+    color: #158269;
+    text-align: center;
+    margin-bottom: 24px;
+    margin: auto;
+    width: 30%;
+    margin-top: 40px;
+}
+
+.ic1 {
+    padding-top: 20px;
+}
+
+.ic4 { 
+    padding-top: 8px;
+    height: 50px;
+}
+
+.partners_list {
+    display: flex;
+    margin: auto;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.ic {
+    margin-left: 16px;
+}
+
+.normal_text {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 24px;
+    font-family: 'Poppins';
+    font-size: 1.5rem; 
+}
+
+.buttons {
+    width: 450px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+
+/*CTA Area*/
+
+.request_btn {
+    padding: 16px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0 solid;
+    background-color: #3AB795;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 8px;
+}
+
+.contact_btn {
+    padding: 16px;
+    width: 200px; 
+    border-radius: 10px;
+    border: 1px solid #3AB795;
+    background-color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    color: #3AB795;
+}
+
+/*-------------------*/
+
+
+.footer {
+    margin-top: 100px;
+    background-image: url(/Assets/Path\ 17.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 128, 128, 0);
+}
+
+.menu_bar {
+    display: none;
+}
+
+
+/*--------------RESPONSIVE----------------*/
+/*--------------RESPONSIVE----------------*/
+/*--------------RESPONSIVE----------------*/
+
+/* 450 */
+@media only screen and (max-width: 450px) {
+    .main_container {
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 100%;
+        flex-direction: column;
+        }
+
+        .title {
+            padding-top: 12px;
+        }
+
+    .pricing_icon {
+        height: 40px;
+        padding-top: 18px;
+        padding-left: 18px;
+    }
+
+
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .okro_logo {
+        height: 48px;
+        margin-left: 8px; 
+    }
+
+    .SignUp_btn {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+    .LogIn_btn {
+        padding: 15px;
+        margin-left: 150px;
+        margin-top: 10px;
+        width: 100px;
+        border-radius: 8px;
+        border: 1px solid  #3AB795;
+        font-weight: bolder;
+        color: #3AB795;
+        background-color:  #ffffff;
+    }
+
+    .menu_pack {
+        padding: 8px;
+    }
+    
+    .Big_text {
+        font-family: 'IBM Plex Sans';
+        font-size: 2.5rem;
+        text-align: center;
+        color: #158269;
+        margin: 16px;
+        margin-top: 140px;
+        width: 95%;
+    }
+
+    .rocket {
+        height: 24px;
+    }
+
+    .pricing_area {
+        background-color: #f4ffef2f;
+        width: auto;
+        height: 800px;
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .pricing_area_inner {
+        background-color: #46bd0f00;
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
+        margin-right: 8px; 
+    }
+
+    .free {
+        margin-top: 8px;
+        margin-left: 8px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+        background-color: white;
+    }
+
+    .items000 {
+        height: 40px;
+        width: 40px;
+        border-radius: 16px;
+        margin-left: 50px;
+        background-color: #97e5b13a;
+        display: flex;
+        font-family: 'Poppins';
+    }
+
+    .items002 {
+        height: 40px;
+        width: 40px;
+        border-radius: 16px;
+        margin-left: 50px;
+        background-color: #97e5b13a;
+        display: flex;
+        font-family: 'Poppins';
+    }
+
+    .free_header {
+        margin: auto;
+        margin-top: 72px;
+    }
+
+    .item_txt {
+        margin-left: 30px;
+    }
+
+    .cta_btn {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #3AB795;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+
+    .cta_btn_paid {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #3AB795;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+    
+    .cta_btn_free {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #3AB795;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+    
+    .okra_icon {
+        padding: 8px;
+    }
+
+    .paid {
+        margin-top: 24px;
+        margin-left: 8px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+        background-color: white;
+    }
+
+    .custom {
+        margin-top: 24px;
+        margin-left: 8px;
+        background-color: white;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+    }
+
+    .faq_grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    } 
+
+    .regular_h1 {
+        font-family: 'Poppins';
+        color: #158269;
+        text-align: center;
+    }
+
+    .faq_area {
+        margin-top: 1000px;
+    }
+
+    .partner_h1 {
+        font-family: 'Poppins';
+        color: #158269;
+        text-align: center;
+        margin-bottom: 24px;
+        margin: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .partners_list {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .ic {
+        margin-left: 2px;
+    }
+    
+    .ic1 {
+        padding-top: 16px;
+    }
+
+    .ic4 { 
+        padding-top: 8px;
+        height: 50px;
+    }
+
+    .icon {
+        background-color: #97e5b13a;
+        border-radius: 20px;
+        margin: 4px;
+        width: 60px;
+    }
+
+    .partners_area {
+        margin: auto;
+        margin-top: 100px;
+        width: 80%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .request_btn {
+        padding: 16px;
+        width: 250px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #3AB795;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+    
+    .contact_btn {
+        padding: 16px;
+        width: 250px; 
+        border-radius: 10px;
+        border: 1px solid #3AB795;
+        background-color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: #3AB795;
+    }
+
+
+    /*--MOBILE MENU*/
+
+.menu_bar {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(270deg, #f8f8f8, #ffffff, #f8f8f8);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    margin-top: 50px;
+    box-shadow: 1px -30px 20px rgba(247, 247, 247, 0.4);
+    border: 1.5px solid rgba(228, 228, 228, 0.4);    
+}
+
+
+.menu_b {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.item {
+    height: 20px; 
+}
+
+
+.text {
+    text-decoration: none;
+    color: #158269b2;
+    font-size: 0.7rem;
+    font-family: 'Krub';
+    text-align: center;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.text_active {
+    text-decoration: none;
+    color: #158269;
+    font-size: 0.7rem;
+    font-family: 'Krub';
+    text-align: center;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+}
+
+
+/* 280 - */
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
+    .Big_text {
+        font-family: 'IBM Plex Sans';
+        font-size: 1.5rem;
+        text-align: center;
+        color: #158269;
+        margin: 16px;
+        margin-top: 140px;
+        width: 85%;
+    }
+
+    .okro_logo {
+        height: 48px;
+        margin-left: 8px;  
+    }
+
+
+    .LogIn_btn {
+        padding: 20px;
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 100px;
+        border-radius: 8px;
+        border: 1px solid #5CC67E;;
+        font-weight: bolder;
+        color: #5CC67E;
+        background-color: #ffffff;
+    }
+
+    .cta_btn {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 0.6rem;
+        color: white;
+        width: 150px;
+    }
+
+    .cta_btn_paid {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 0.6rem;
+        color: white;
+        width: 150px;
+    }
+    
+    .cta_btn_free {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 0.6rem;
+        color: white;
+        width: 150px;
+    }
+
+    .request_btn {
+        padding: 16px;
+        width: 250px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        margin-top: 16px;
+    }
+    
+    .contact_btn {
+        padding: 16px;
+        width: 250px; 
+        border-radius: 10px;
+        border: 1px solid #5CC67E;
+        background-color: #ffffff;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: #5CC67E;
+    }
+
+
+    .title {
+        padding-top: 12px;
+    }
+
+}
+
+
+/*------------------Targeted Breakpoints-------------------*/
+/*------------------Targeted Breakpoints-------------------*/
+/*------------------Targeted Breakpoints-------------------*/
+
+@media only screen and (min-width: 540px) and (max-width: 1024px) {
+    .main_container {
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 100%;
+        flex-direction: column;
+        }
+
+
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .okro_logo {
+        height: 48px;
+        
+    }
+
+    .SignUp_btn {
+        display: none;
+    }
+
+    span {
+        display: none;
+    }
+
+    .LogIn_btn {
+        padding: 20px;
+        margin-left: 250px;
+        margin-top: 10px;
+        width: 150px;
+        border-radius: 16px;
+        border: 0 solid;
+        font-weight: bolder;
+        color: #5CC67E;
+        background-color: #F5FCF2;
+    }
+
+    .menu_pack {
+        padding: 8px;
+    }
+    
+    .Big_text {
+        font-family: 'IBM Plex Sans';
+        font-size: 2.5rem;
+        text-align: center;
+        color: #158269;
+        margin: 16px;
+        margin-top: 140px;
+        width: 95%;
+    }
+
+    .rocket {
+        display: none;
+    }
+
+    .pricing_area {
+        background-color: #f4ffef2f;
+        width: auto;
+        height: 800px;
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .pricing_area_inner {
+        background-color: #46bd0f00;
+        width: 90%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
+        margin-right: 8px; 
+    }
+
+    .free {
+        margin-top: 8px;
+        margin-left: 8px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+        background-color: white;
+    }
+
+    .items000 {
+        height: 40px;
+        width: 40px;
+        border-radius: 16px;
+        margin-left: 50px;
+        background-color: #ade5973a;
+        display: flex;
+        font-family: 'Poppins';
+    }
+
+    .items002 {
+        height: 40px;
+        width: 40px;
+        border-radius: 16px;
+        margin-left: 50px;
+        background-color: #ade5973a;
+        display: flex;
+        font-family: 'Poppins';
+    }
+
+    .free_header {
+        margin: auto;
+        margin-top: 72px;
+    }
+
+    .item_txt {
+        margin-left: 30px;
+    }
+
+    .cta_btn {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+
+    .cta_btn_paid {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+    
+    .cta_btn_free {
+        padding: 10px;
+        margin: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        width: 250px;
+    }
+    
+    .okra_icon {
+        padding: 8px;
+    }
+
+    .paid {
+        margin-top: 24px;
+        margin-left: 8px;
+        background-color: white;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+    }
+
+    .custom {
+        margin-top: 24px;
+        margin-left: 8px;
+        background-color: white;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: -25px -5px 120px #dadada4b;
+        border-radius: 48px;
+    }
+
+    .faq_grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    } 
+
+    .regular_h1 {
+        font-family: 'Poppins';
+        color: #158269;
+        text-align: center;
+    }
+
+    .faq_area {
+        margin-top: 1000px;
+    }
+
+    .partner_h1 {
+        font-family: 'Poppins';
+        color: #158269;
+        text-align: center;
+        margin-bottom: 24px;
+        margin: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .partners_list {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 16px;
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .title {
+        padding-top: 12px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .ic {
+        margin-left: 2px;
+    }
+    
+
+    .ic1 {
+        padding-top: 16px;
+    }
+
+    .partners_area {
+        margin: auto;
+        margin-top: 100px;
+        width: 80%;
+        
+    }
+
+    .request_btn {
+        padding: 16px;
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        border: 0 solid;
+        background-color: #5CC67E;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: white;
+        
+    }
+    
+    .contact_btn {
+        padding: 16px;
+        width: 200px; 
+        height: auto;
+        border-radius: 10px;
+        border: 0px solid #5CC67E;
+        background-color: #F5FCF2;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        color: #5CC67E;
+    }
+
+
+    /*--MOBILE MENU*/
+
+.menu_bar {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(270deg, #f8f8f8, #ffffff, #f8f8f8);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    margin-top: 50px;
+    box-shadow: 1px -30px 20px rgba(247, 247, 247, 0.4);
+    
+}
+
+
+.menu_b {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.item {
+    height: 20px;
+    
+}
+
+.text {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 0.7rem;
+    font-family: 'Krub';
+    text-align: center;
+    margin-top: 4px;
+    cursor: pointer;
+}
+}
+
+/*------------------Targeted Breakpoints-------------------*/
+
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+
+}
+
+/*-----------------------------------Toggle Switch---------------------------------------------*/
+
+input[type="checkbox"].ios8-switch {
+    position: absolute;
+    margin: 8px 0 0 16px;    
+}
+input[type="checkbox"].ios8-switch + label {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].ios8-switch + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40px; /* x*5 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch:checked + label:after {
+    margin-left: 16px;
+}
+input[type="checkbox"].ios8-switch:checked + label:before {
+    background: #55D069;
+}
+
+
+/* LARGE */
+
+input[type="checkbox"].ios8-switch-lg {
+    margin: 10px 0 0 20px;
+}
+input[type="checkbox"].ios8-switch-lg + label {
+    position: relative;
+    padding: 7px 0 0 60px;
+    line-height: 2.3em;
+}
+input[type="checkbox"].ios8-switch-lg + label:before {
+    width: 50px; /* x*5 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:after {
+    width: 30px; /* x*3 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:hover:after {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch-lg:checked + label:after {
+    margin-left: 20px; /* x*2 */
+}
+
